@@ -57,19 +57,6 @@ export default function RegisterPage() {
 
                   <div className="d-flex justify-content-between mb-3">
                     <div class="col-sm-4 text-start">
-                      Username
-                    </div>
-                    <div>
-                      <input class="form-control"  type="text" placeholder="Enter usename"                
-                      id="username"
-                      placeholder="Enter username"
-                      value={username}
-                      onChange={(e) => setUsername(e.target.value)}
-                  />
-                    </div>
-                  </div>
-                  <div className="d-flex justify-content-between mb-3">
-                    <div class="col-sm-4 text-start">
                       Email
                     </div>
                     <div>
